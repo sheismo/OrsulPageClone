@@ -79,6 +79,7 @@ footer{
     background-color: rgba(26, 3, 63, 0.5);
     background-position: center;
     background-repeat:no-repeat;
+    background-attachment:fixed;
     vertical-align:middle;
 }
 .div2{
