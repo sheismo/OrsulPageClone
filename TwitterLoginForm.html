@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <style>
+        .container{
+            width: 350px;
+            height: 500px;
+            margin: 5% auto;
+            padding:40px;
+            border-radius: 20px;
+            box-sizing:border-box;
+            background:#f8f5f5;
+            box-shadow: 14px 14px 20px #cbced1, -14px, -14px 20px white !important;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+            background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+            margin: auto;
+            border-radius: 50%;
+            box-sizing: border-box;
+            box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+        }
+        label{
+            font-weight: bold;
+        }
+        input{
+            width: 90%;
+            margin: 0 auto;
+            height: 5% !important; 
+            background: #ecf0f3;
+            padding: 10px;
+            padding-left: 20px;
+            height: 50px;
+            font-size:14px;
+            border-radius: 50px;
+            border: none;
+            box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+            margin-top: 1%;
+        }
+        button{
+            width: 100%;
+            margin: 0 auto;
+            height:35px;
+            border-radius: 20px;
+            border: none;
+            background: #1da1f2;
+            cursor:pointer;
+            transition: .5s;
+            text-align:center;
+            font-weight: 900;
+            box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+        }
+        button:hover{
+            box-shadow: none;
+            background: rgb(12, 140, 214);
+        }
+        .text{
+            text-align:center;
+            margin-bottom:25px;;
+            font-weight: 900;
+            color:#1da1f2;
+        }
+        svg{
+            color:#1da1f2
+        } 
+        a.svg{
+            color: #1da1f2;
+            font-size: 1rem;
+        }
+        /* .bi-off:active{
+            display:none;
+        } */
+    </style>
+</head>
+<body>
+    <h1>LIGHT</h1>
+    <div class="container">
+        <div class="logo"></div>
+        <h2 class="text">TWITTER</h4>
+        <div class="field">
+            <label for="#email">EMAIL</label><br/>
+            <input type="email" id="email" required autocomplete placeholder="example@fishes.com"/>
+        </div>
+        <br/>
+        <div class="field">
+            <label for="#email">PASSWORD</label><br/>
+            <input type="password" id="password" required autocomplete placeholder="Enter Password" />
+        </div>
+        <br/>
+        <button id="button">LOG IN</button>
+        <br/>
+        <br/>
+        <br/>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-off"
+            viewBox="0 0 16 16">
+            <path d="M9 11c.628-.836 1-1.874 1-3a4.978 4.978 0 0 0-1-3h4a3 3 0 1 1 0 6H9z" />
+            <path d="M5 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0 1A5 5 0 1 0 5 3a5 5 0 0 0 0 10z" />
+        </svg>Dark mode</a>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-on"
+            viewBox="0 0 16 16">
+            <path d="M7 5H3a3 3 0 0 0 0 6h4a4.995 4.995 0 0 1-.584-1H3a2 2 0 1 1 0-4h3.416c.156-.357.352-.692.584-1z" />
+            <path d="M16 8A5 5 0 1 1 6 8a5 5 0 0 1 10 0z" />
+        </svg>
+    </div> -->
+</body>
+</html>
